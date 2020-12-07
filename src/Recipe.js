@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Recipe({ health, title, calories, image, url, source }) {
+function Recipe({ title, calories, image, url, source }) {
 
     return (
         <div className="recipe">
@@ -9,7 +9,7 @@ function Recipe({ health, title, calories, image, url, source }) {
             <img className="recipe-img" src={image} alt={title} />
             <div className="recipe-info">
                 <div className="calories-container">
-                    <h3>Calories</h3>
+                    <h3>Calories per serving</h3>
                     <p>{calories}</p>
                 </div>
                 <div className="ingredients-container">
