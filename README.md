@@ -1,6 +1,15 @@
 # Recipe Finder
 
-A simple Recipe Finder calling the Recipe Search API from edamam.com
+A simple Recipe Finder calling the Recipe Search API from edamam.com.
+# Features
+
+Type in ingredients or a recipe name in the searchbar to get up to 100 results;
+Calories Filter ranging from 0 to 9000;
+Each result shows:
+    - Name
+    - Image 
+    - Calories per serving
+    - Link to official recipe source
 
 # Getting Started with Create React App
 
