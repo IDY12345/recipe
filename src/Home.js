@@ -7,8 +7,8 @@ import Recipe from "./Recipe";
 import Pagination from './Pagination';
 
 function Home() {
-    const APP_ID = ""; // YOUR_APP_ID
-    const APP_KEY = ""; // YOUR_APP_KEY
+    const APP_ID = "2ab58b74"; // YOUR_APP_ID
+    const APP_KEY = "c0b457707e66aad2448551286ae752cc"; // YOUR_APP_KEY
 
     // Search
     const [recipes, setRecipes] = useState([]);
